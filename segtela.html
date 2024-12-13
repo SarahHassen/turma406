@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front  End 406 - Nossa Equipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="segtela.css">
+   
+</head>
+<body>
+    
+
+    <a href="index.html" id="returnButton" class="btn btn-primary return-button">
+        <i class="fas fa-home"></i> <span class="d-none d-sm-inline">Voltar para Início</span>
+    </a>
+    <canvas id="particleCanvas"></canvas>
+
+    
+    
+    
+    <header class="section text-center">
+        <div class="container">
+            <h1 class="animated-text" id="frontEndText">Front End</h1>
+            <p class="lead" style="font-size: 1.5rem;">Desenvolvendo o futuro da web</p>
+        </div>
+    </header>
+    
+    
+    <section id="sobre" class="section bg-light text-dark">
+        
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Nós</h2> 
+            
+            <p style="font-size: 1.3rem;">Somos a turma Front-End 406 do SENAC Tech, parte do Programa de Trilha de Desenvolvimento Front-End do programa RS TI. Um grupo dedicado de desenvolvedores em formação, unidos por um objetivo comum: criar experiências web incríveis e inovadoras que transformem o mundo digital. Cada um de nós traz uma combinação única de criatividade e habilidades técnicas, sempre buscando soluções que se alinhem às necessidades do presente e ao que o futuro nos reserva.</p>
+
+    <p style="font-size: 1.3rem;">Nosso foco está na constante evolução, aprendendo com cada desafio e aprimorando nossas competências. Sabemos que a tecnologia é uma das áreas mais dinâmicas e essenciais para o futuro, e, por isso, estamos comprometidos em não apenas acompanhar as tendências, mas em moldar o cenário digital de 2025 com nossas ideias e inovação.</p>
+
+    <p style="font-size: 1.3rem;">Acreditamos que a formação tecnológica é a chave para criar um futuro brilhante, e que cursos como o do SENAC são fundamentais para desenvolver as mentes brilhantes que vão liderar as mudanças nas próximas décadas. O conhecimento adquirido hoje não só prepara para os desafios de amanhã, mas também possibilita a criação de soluções que transformarão o cotidiano das pessoas e das empresas.</p>
+
+    <p style="font-size: 1.3rem;">A turma 406 é mais do que um grupo de estudantes. Somos futuros profissionais, prontos para deixar nossa marca no mundo da tecnologia e ajudar a construir um futuro cada vez mais conectado e digital. Estamos preparados para enfrentar os desafios e oportunidades que surgirão, sempre com foco na criação de experiências digitais memoráveis e inovadoras.</p>
+</body>
+        </div>
+    </section>
+    
+  
+    <section id="equipe" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossa Equipe</h2> 
+            <div class="container-content "><div class="card">
+                <div class="card-image">
+                    <img src="imagens/gilmar.jpg" alt="${member.name}" style="margin-left: 17%;">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Gilmar Aires dos Santos</h2>
+                    <p class="card-email">airesdossantos.gilmar@gmail.com</p>
+                    <div class="card-social">
+                        <!--<a href="${member.github}" class="social-icon" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>-->
+                        <!--<a href="${member.instagram}" class="social-icon" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>-->
+                        <!--<a href="${member.facebook}" class="social-icon" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>-->
+                        </a>
+                        <a href="https://www.linkedin.com/in/gilmar-aires-dos-santos-a3b2343a/" class="social-icon" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <!--<a href="https://www.behance.net/seu_perfil" class="social-icon" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-behance"></i>
+                        </a>!-->
+                    </div>
+                </div>
+            </div></div>
+            
+            <div class="container-content row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="team-container">
+               
+            </div>
+        </div>
+    </section>
+    
+    <section id="foto-turma" class="section bg-light text-dark">
+        <div class="container text-center">
+            <h2 class="mb-4">Nossa Turma</h2>
+            <img src="imagens/IMG_1633.jpg" alt="Foto da Turma Front End 406" class="team-photo">
+        </div>
+    </section>
+    
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <section id="localizacao" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-dark">Nossa Localização</h2>
+            <div class="ratio ratio-16x9">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7916152930943!2d-51.22146782366804!3d-30.042835674924444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1733771296873!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre o Curso</h3>
+                <p>Front-End 406 - SENAC Tech</p>
+                <p>Programa RS TI</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#equipe">Nossa Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Front-End 406 | SENAC Tech. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="card-hover.js"></script>
+    <script src="segtela.js"></script>
+    <script>
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const particles = [];
+        const particleCount = 100;
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.speed = 0.5 + Math.random() * 1;
+                this.size = 1 + Math.random() * 3;
+            }
+
+            update() {
+                this.y -= this.speed;
+                if (this.y < 0) {
+                    this.y = canvas.height;
+                }
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function createParticles() {
+            for (let i = 0; i < particleCount; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        function handleResize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener('resize', handleResize);
+
+        createParticles();
+        animate();
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const text = document.getElementById('frontEndText');
+            const letters = text.textContent.split('');
+            text.textContent = '';
+            
+            letters.forEach(letter => {
+                const span = document.createElement('span');
+                span.textContent = letter;
+                text.appendChild(span);
+            });
+        });
+
+
+        document.getElementById('returnButton').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});
+       
+    </script>
+</body>
+</html>
